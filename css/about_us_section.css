@@ -1,0 +1,37 @@
+.mission-article {
+    padding: 60px 120px;
+}
+
+.mission-title,
+.beginning-title {
+    font-size: 40px;
+    color: rgb(211, 139, 87);
+}
+
+.mission-description,
+.beginning-story,
+.beginning-epiphany {
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.coffee-image {
+    position: relative;
+    left: 25%;
+}
+
+.beginning-date {
+    font-size: 20px;
+    color: rgb(187, 66, 5);
+}
+
+.intro__button {
+    appearance: none;
+    padding: 15px 30px;
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(255, 251, 251);
+    background: rgb(211, 139, 87);
+
+}

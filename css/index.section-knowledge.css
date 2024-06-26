@@ -1,0 +1,63 @@
+.section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: visible;
+    padding: 0 !important;
+}
+
+.section-2__main {
+    overflow: visible;
+    height: auto;
+}
+
+.section-2__block-1,
+.section-2__block-2 {
+    width: 50%;
+}
+
+.section-2__block-1 {
+    position: relative;
+    width: calc(100% - 66px);
+    margin-top: -58.5px;
+
+}
+
+.section-2__button-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    background-color: rgb(214, 193, 179) !important;
+    color: white !important;
+    border: none !important;
+}
+
+.knowledge__title {
+    font-size: 50px;
+    font-family: 'Lora', serif;
+}
+
+.knowledge__text-1,
+.knowledge__text-2 {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
+.knowledge__button {
+    color: grey !important;
+    border: gray solid 1px !important;
+}
+
+.section-2__image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: top;
+}
+
+.section-2__block-2 {
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    font-size: 20px;
+
+}

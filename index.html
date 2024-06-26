@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.3.0/css/all.min.css">
+
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/index.css"/>
+  </head>
+
+<body>
+  <header class="wrapper">
+    <nav
+      class="header__menu"
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="common.nav.html"
+    ></nav>
+  </header>
+
+  <main>
+    <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.section-intro.html"
+    ></section>
+
+    <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.section-knowledge.html"
+    ></section>
+
+   
+    <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.section-easy.html"
+    ></section>
+
+   
+    <section
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="index.section-flavours.html"
+    ></section>
+  </main>
+
+    <footer
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="common.footer.html"
+    ></footer>
+   
+
+  <script src="js/index.js"></script>
+</body>
+</html>

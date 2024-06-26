@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="css/shop.css" />
+    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="wrapper">
+        <nav class="header__menu" data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="common.nav.html"></nav>
+    </header>
+    <div class="cartBagContainer">
+        <i id="cartIcon" class=" icon-bag fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="container shop">
+        <input type="text" id="searchInput" placeholder="Search by product name">
+        <div id="products" class="product-list">
+        </div>
+        <script src="js/shop_section.js"></script>
+</body>
+
+</html>
